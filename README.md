@@ -98,11 +98,9 @@ This not only works for PS1 games with POPStarter, you can place any `.elf` file
 If you compile this program from source, the resulting file will be `POPStarter-Starter.elf`. You will need to sign the executable before it can be used.
 
 Sign the executable with [this application](https://www.psx-place.com/resources/kelftool-fmcb-compatible-fork.1104/):
-
-    ```cmd
-    kelftool encrypt mbr POPStarter-Starter.elf POPStarter-Starter.kelf
-    ```
-
+```cmd
+kelftool encrypt mbr POPStarter-Starter.elf POPStarter-Starter.kelf
+```
 If you have downloaded `POPStarter-Starter.kelf` from `Releases`, then the file is already signed so this step is not necessary.
 
 ## Credits
